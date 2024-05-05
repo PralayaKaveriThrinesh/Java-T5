@@ -1,0 +1,104 @@
+import java.util.*;
+
+// Book class
+class Book {
+    private String id;
+    private String title;
+    private String author;
+    private String category;
+    private boolean available;
+
+    // Constructor
+    public Book(String id, String title, String author, String category) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.category = category;
+        this.available = true;
+    }
+
+    // Getter and setter methods
+    // Implement as needed
+}
+
+// Member class
+class Member {
+    private String id;
+    private String name;
+    private String email;
+
+    // Constructor
+    public Member(String id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
+    // Getter and setter methods
+    // Implement as needed
+}
+
+// Admin module
+class Admin {
+    // Method to add a new book
+    public void addBook(Book book) {
+        // Logic to add book to database
+    }
+
+    // Method to update book details
+    public void updateBook(Book book) {
+        // Logic to update book details in database
+    }
+
+    // Method to delete a book
+    public void deleteBook(String bookId) {
+        // Logic to delete book from database
+    }
+
+    // Method to add a new member
+    public void addMember(Member member) {
+        // Logic to add member to database
+    }
+
+    // Method to update member details
+    public void updateMember(Member member) {
+        // Logic to update member details in database
+    }
+
+    // Method to delete a member
+    public void deleteMember(String memberId) {
+        // Logic to delete member from database
+    }
+}
+
+// User module
+class User {
+    // Method to search for books by title, author, or category
+    public List<Book> searchBooks(String keyword) {
+        // Logic to search for books in database
+        return new ArrayList<>(); // Placeholder
+    }
+
+    // Method to borrow a book
+    public void borrowBook(Book book, Member member) {
+        // Logic to borrow book and update availability in database
+    }
+
+    // Method to return a book
+    public void returnBook(Book book) {
+        // Logic to return book and update availability in database
+    }
+
+    // Method to send email query
+    public void sendQuery(String email, String query) {
+        // Logic to send email query
+    }
+}
+
+// Main class
+public class LibraryManagementSystem {
+    public static void main(String[] args) {
+        // Create instances of Admin, User, etc.
+        // Implement the main functionality of the library management system
+    }
+}
